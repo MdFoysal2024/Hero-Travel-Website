@@ -115,7 +115,7 @@ select
 
 }
 
-button {
+.btn-primary {
     width: 100%;
     padding: 16px;
     border-radius: 10px;
@@ -129,4 +129,22 @@ button {
     align-items: center;
     background-color: #FF5400;
 
+}
+.popular-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-content{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    justify-content: space-between;
+    text-align: left;
+}
+.text-content li{
+line-height: 26px;
+white-space: 10px;
+padding-top: 12px;
 }
