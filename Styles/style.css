@@ -1,5 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-body{
-    font-family: "Mulish", sans-serif; 
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+/* default styled */
+
+* {
+    margin: 0px;
+}
+
+.nav-container {
+    width: 80%;
+    margin: 5rem auto;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+} 
+.nav-option{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
 }
